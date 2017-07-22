@@ -5,6 +5,20 @@
  <remove-project name="AOSPA/android_packages_apps_Calendar" />
  <remove-project name="AOSPA/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
  <remove-project name="AOSPA/android_packages_apps_Camera2" />
+ <remove-project name="AOSPA/android_external_skia" />
+
+<!-- Replacing -->
+ <project name="LineageOS/android_external_skia" path="external/skia" remote="github" revision="cm-14.1" />
+
+<!-- Hardware repos that someone have miss (yeah i'm looking at you aospa team) -->
+ <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" remote="github" groups="qcom,qcom_audio" revision="cm-14.1-caf-8996" />
+ <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" remote="github" groups="qcom" revision="cm-14.1-caf" />
+ <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" remote="github"  groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8996" />
+ <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" remote="github"  groups="qcom,qcom_fm" revision="cm-14.1" />
+ <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" remote="github"  groups="qcom" revision="cm-14.1-caf-8996" />
+ <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" remote="github"  groups="qcom_wlan" revision="cm-14.1-caf" />
+ <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" remote="github"  groups="pdk" revision="cm-14.1-caf" />
+ <project path="system/qcom" name="LineageOS/android_system_qcom" remote="github"  groups="qcom" revision="cm-14.1" />
 
 <!-- Extras required for tunderized devices -->
  <project name="LineageOS/android_external_bson" path="external/bson" remote="github" revision="cm-14.1" />
