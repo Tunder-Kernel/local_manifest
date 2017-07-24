@@ -6,6 +6,7 @@
  <remove-project name="AOSPA/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
  <remove-project name="AOSPA/android_packages_apps_Camera2" />
  <remove-project name="AOSPA/android_external_skia" />
+ <remove-project name="AOSPA/android_device_qcom_sepolicy" />
 
 <!-- Replacing -->
  <project name="LineageOS/android_external_skia" path="external/skia" remote="github" revision="cm-14.1" />
@@ -18,7 +19,6 @@
  <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" remote="github"  groups="qcom" revision="cm-14.1-caf-8996" />
  <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" remote="github"  groups="qcom_wlan" revision="cm-14.1-caf" />
  <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" remote="github"  groups="pdk" revision="cm-14.1-caf" />
- <project path="system/qcom" name="LineageOS/android_system_qcom" remote="github"  groups="qcom" revision="cm-14.1" />
 
 <!-- Extras required for tunderized devices -->
  <project name="LineageOS/android_external_bson" path="external/bson" remote="github" revision="cm-14.1" />
@@ -31,6 +31,7 @@
 <!-- Device tree -->
  <project name="Tunder-Kernel/android_device_motorola_griffin" path="device/motorola/griffin" remote="github" revision="nougat-mr2" />
  <project name="boulzordev/proprietary_vendor_motorola_griffin" path="vendor/motorola/griffin" remote="github" revision="cm-14.1-mods" />
- <project name="Tunder-Kernel/android_kernel_motorola_msm8996" path="kernel/motorola/msm8996" remote="github" revision="Tunder-1.1-upstream" />
+ <project name="Tunder-Kernel/android_kernel_motorola_msm8996" path="kernel/motorola/msm8996" remote="github" revision="Tunder-1.1" />
+ <project name="mj1687/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="github" revision="nougat-mr2" />
 
 </manifest>
