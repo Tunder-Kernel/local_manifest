@@ -12,14 +12,12 @@
  <remove-project name="LineageOS/android_packages_apps_Gallery2" />
  <remove-project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
  <remove-project name="android_frameworks_base" />
- <remove-project name="system_core" />
  <remove-project name="android_vendor_resurrection" />
  <remove-project name="LineageOS/android_bionic" />
 
 <!-- Extra Repos -->
  <project name="AOSPA/android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="github" revision="nougat-mr2" />
  <project name="Tunder-Kernel/rr-tunderized_fw_base" path="frameworks/base" remote="github" revision="merge-branch" />
- <project name="Tunder-Kernel/rr-tunderized_sys_core" path="system/core" remote="github" revision="merge-branch" />
  <project name="Tunder-Kernel/tunderized_vendor_cm" path="vendor/cm" remote="github" revision="merge-branch" />
  <project name="Tunder-Kernel/tunderized-android_bionic" path="bionic" remote="github" revision="merge-branch" />
 
@@ -41,7 +39,7 @@
  <project name="boulzordev/proprietary_vendor_motorola_griffin" path="vendor/motorola/griffin" remote="github" revision="cm-14.1-mods" />
  <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-14.1" />
  <project name="Tunder-Kernel/android_kernel_htc_flounder" path="kernel/htc/flounder" remote="github" revision="cm-14.1" />
- <project name="Tunder-Kernel/android_kernel_motorola_msm8996" path="kernel/motorola/msm8996" remote="github" revision="Tunder-1.0-boulz" />
+ <project name="Tunder-Kernel/android_kernel_motorola_msm8996" path="kernel/motorola/msm8996" remote="github" revision="Tunder-1.1" />
  <project name="Tunder-Kernel/android_kernel_oneplus_msm8996" path="kernel/oneplus/msm8996" remote="github" revision="Tunder-1.2" />
 
 
