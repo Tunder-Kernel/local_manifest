@@ -7,18 +7,22 @@
  <remove-project name="AOSPA/android_packages_apps_Camera2" />
  <remove-project name="AOSPA/android_external_skia" />
  <remove-project name="AOSPA/android_device_qcom_sepolicy" />
+ <remove-project name="AOSPA/android_system_media" />
+ <remove-project name="AOSPA/android_hardware_ril" />
+ <remove-project name="AOSPA/android_frameworks_av" />
 
 <!-- Replacing -->
  <project name="LineageOS/android_external_skia" path="external/skia" remote="github" revision="cm-14.1" />
+ <project name="mj1687/android_frameworks_av" path="frameworks/av" remote="github" revision="nougat-mr2" />
 
 <!-- Hardware repos that someone have miss (yeah i'm looking at you aospa team) -->
- <project path="hardware/qcom/audio" name="AOSPA/android_hardware_qcom_audio" remote="github" groups="qcom,qcom_audio" revision="nougat-mr2-8996" />
+ <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" remote="github" groups="qcom,qcom_audio" revision="cm-14.1-caf-8996" />
  <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="github"  groups="pdk,qcom,qcom_display" revision="nougat-mr2-8996" />
  <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" remote="github"  groups="qcom,qcom_fm" revision="cm-14.1" />
- <project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" remote="github"  groups="qcom" revision="nougat-mr2-8996" />
+ <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" remote="github"  groups="qcom" revision="cm-14.1-caf-8996" />
  <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" remote="github"  groups="qcom_wlan" revision="cm-14.1-caf" />
  <project path="hardware/qcom/keymaster" name="AOSPA/android_hardware_qcom_keymaster" remote="github" revision="nougat-mr2" />
-
+ <project path="hardware/ril" name="LineageOS/android_hardware_ril" remote="github" revision="cm-14.1-caf" />
 
 <!-- Extras required for tunderized devices -->
  <project name="LineageOS/android_external_bson" path="external/bson" remote="github" revision="cm-14.1" />
@@ -27,6 +31,7 @@
  <project name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" remote="github" revision="cm-14.1" />
  <project name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" remote="github" revision="cm-14.1" />
  <project name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" remote="github" revision="cm-14.1" />
+ <project name="LineageOS/android_system_media" path="system/media" remote="github" revision="cm-14.1" />
 
 <!-- Device tree -->
  <project name="Tunder-Kernel/android_device_motorola_griffin" path="device/motorola/griffin" remote="github" revision="nougat-mr2" />
