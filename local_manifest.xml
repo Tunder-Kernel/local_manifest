@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="tunder"
+           fetch="https://github.com/Tunder-Kernel/" />
+
+  <!-- removing -->
+  <remove-project name="android_packages_apps_DeskClock" />
+  <remove-project name="android_packages_apps_Gallery2" />
+  <remove-project name="android_packages_apps_Launcher3" />
+  <remove-project name="android_packages_apps_Calculator" />
+  <remove-project name="android_packages_apps_Calendar" />
+  <remove-project name="arm-eabi-4.8" />
+  <remove-project name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
+
+  <!-- trees -->
+  <project path="device/htc/flounder" name="android_device_htc_flounder" remote="tunder" revision="n7x" />
+  <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-14.1" />
+  <project path="kernel/htc/flounder" name="android_kernel_htc_flounder" remote="tunder" revision="Tunder-1.0" />
+
+</manifest>
